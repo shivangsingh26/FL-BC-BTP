@@ -91,8 +91,11 @@ Federated learning is a distributed machine learning approach that enables model
 After 10 rounds of training, impressive accuracies were achieved:
 
 Client 1: 85%
+
 Client 2: 87%
+
 Client 3: 81%
+
 Client 4: 88%
 
 ## FedWPR
