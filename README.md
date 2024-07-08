@@ -36,10 +36,10 @@ Federated learning is a distributed machine learning approach that enables model
   - `split_train_test.ipynb`: Splits the data into training and testing sets.
 - **GPU based**: Contains a notebook to check the available GPUs on your device.
   - `gpu_test.ipynb`: Checks and lists available GPUs.
-- **FedAvg.ipynb**: Main implementation of the FedAvg aggregation algorithm.
-- **FedWPR.ipynb**: Main implementation of the FedWPR aggregation algorithm.
-- **requirements.txt**: Lists all the necessary libraries for the project.
-- **Lian_et_al_2023_FedFV_Paper.pdf**: Base paper used for the implementation.
+- `**FedAvg.ipynb**`: Main implementation of the `FedAvg` aggregation algorithm.
+- `**FedWPR.ipynb**`: Main implementation of the `FedWPR` aggregation algorithm.
+- `**requirements.txt**`: Lists all the necessary libraries for the project.
+- `**Lian_et_al_2023_FedFV_Paper.pdf**`: Base paper used for the implementation.
 
 ## Installation
 
@@ -69,16 +69,16 @@ Federated learning is a distributed machine learning approach that enables model
     ```
 
 ## Usage
-**Note**: It is highly recommended to use GPUs for faster execution. For executing FedAvg.ipynb and FedWPR.ipynb, Google Colab's T4 GPU has been used. Data is imported using Google Drive. If you have a good GPU, you can skip the cells involving Google Drive mounting and directly add your dataset paths.
+**Note**: It is highly recommended to use GPUs for faster execution. For executing `FedAvg.ipynb` and `FedWPR.ipynb`, Google Colab's T4 GPU has been used. Data is imported using Google Drive. If you have a good GPU, you can skip the cells involving Google Drive mounting and directly add your dataset paths.
 
 ## Data Preparation
 
 - If you have raw data, use the notebooks in the Data Conversion code folder to preprocess your datasets.
-    -convert_datasets.ipynb
-    -create_non_iid_datasets.ipynb
-    -split_train_test.ipynb
+    -`convert_datasets.ipynb`
+    -`create_non_iid_datasets.ipynb`
+    -`split_train_test.ipynb`
   
--If you already have non-iid datasets, you can skip this step.
+-If you already have `non-iid datasets`, you can skip this step.
 
 ## Run Federated Learning:
 1. Choose the aggregation strategy (FedAvg or FedWPR).
