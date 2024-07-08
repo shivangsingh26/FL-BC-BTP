@@ -36,10 +36,10 @@ Federated learning is a distributed machine learning approach that enables model
   - `split_train_test.ipynb`: Splits the data into training and testing sets.
 - **GPU based**: Contains a notebook to check the available GPUs on your device.
   - `gpu_test.ipynb`: Checks and lists available GPUs.
-- `**FedAvg.ipynb**`: Main implementation of the `FedAvg` aggregation algorithm.
-- `**FedWPR.ipynb**`: Main implementation of the `FedWPR` aggregation algorithm.
-- `**requirements.txt**`: Lists all the necessary libraries for the project.
-- `**Lian_et_al_2023_FedFV_Paper.pdf**`: Base paper used for the implementation.
+- **`FedAvg.ipynb`**: Main implementation of the `FedAvg` aggregation algorithm.
+- **`FedWPR.ipynb`**: Main implementation of the `FedWPR` aggregation algorithm.
+- **`requirements.txt`**: Lists all the necessary libraries for the project.
+- **`Lian_et_al_2023_FedFV_Paper.pdf`**: Base paper used for the implementation.
 
 ## Installation
 
